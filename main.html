@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" href="symbol.png" type="image/logo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#first"><span
+                    class="name">Aayushi.</span></a>
+            <ul>
+                <li><a href="#first" >Home</a></li>
+                <li><a href="#second">About</a></li>
+                <li><a href="#third">Project</a></li>
+                <li><a href="#fourth">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="first">
+            <div class="leftsection">
+                    Hey there,
+                    <div>I am <span class="blue">Aayushi Ghosh</span></div>
+                    <div>and I am a</div>
+                <span id="element"></span>
+                <div class="but">
+                    <a href="AAYUSHI GHOSH-Resume.pdf" download class="btn">Download Resume</a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image.jpeg" alt="image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="second">
+            <h1>About Me</h1>
+            <div class="container">
+                <div class="row1">
+                    <div class="info">
+                        <h2> Career Objective</h2>
+                        <p>Getting an opportunity in a reputed MNC for showcasing skills and utilizing knowledge to
+                            serve clients and reaching targets as well as gaining experience to reach the goal.</p>
+                    </div>
+                    <div class="edu">
+                        <h2>Education</h2>
+                        <h4>Bachelor of Computer Science and Engineering</h4>
+                        <li>Brainware University, Kolkata</li>
+                        <li>Average SGPA-9.72</li>
+                        <h4>Class 12</h4>
+                        <li>Authpur National Model School, Shyamnagar</li>
+                        <li>Percentage-76%</li>
+                        <h4>Class 10</h4>
+                        <li>St.Augustine's Day School, Shyamnagar</li>
+                        <li>Percentage-81.4%</li>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="skill">
+                        <h2>Skills</h2>
+                        <h4>Programming Languages</h4>
+                        <li>C</li>
+                        <li>Java</li>
+                        <h4>Web Development</h4>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <h4>Database</h4>
+                        <li>SQL</li>
+                        <h4>Concepts</h4>
+                        <li>Object Oriented Programming</li>
+                        <li>Database Management System</li>
+                    </div>
+                    <div class="certificate">
+                        <h2>Certifications</h2>
+                        <li>The C Programming Course-Udemy</li>
+                        <li>Java for Beginners-Udemy</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection" id="third">
+            <h1>Projects</h1>
+            <div class="container">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work.jpg" alt="image">
+                        <div class="layer">
+                            <h2>Gym Website</h2>
+                            <p>Tools: HTML,CSS</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work.jpg" alt="image">
+                        <div class="layer">
+                            <h2>Live Clock</h2>
+                            <p>Tools: HTML,CSS,JS</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work.jpg" alt="image">
+                        <div class="layer">
+                            <h2>To-Do List</h2>
+                            <p>Tools: HTML,CSS,JS</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fourthsection" id="fourth">
+            <h1>Contact</h1>
+            <div class="container">
+                <div class="row1">
+                    <div class="left">
+                        <p><i class='bx-fw bx bxs-phone-call'></i>0123456789</p> 
+                        <p><i class='bx-fw bx bxs-envelope'></i>contact@gmail.com</p>
+                       <div class="social-icons">
+                        <i class='bx-fw bx bxl-facebook-square'></i>
+                        <i class='bx-fw bx bxl-instagram'></i>
+                        <i class='bx-fw bx bxl-linkedin-square'></i>
+                        <i class='bx-fw bx bxl-github'></i>
+                       </div>
+                    </div>
+                    <div class="right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name">
+                            <input type="email" name="Name" placeholder="Your Email">
+                            <textarea name="Message" cols="6" placeholder="Type your message here"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+           <p>&copy; &nbsp Copyright 2023 by Aayushi Ghosh</p> 
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Computer Science Engineer.', 'Tech Enthusiast.', 'Frontend Designer.', 'Web Development Learner.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
